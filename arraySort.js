@@ -4,9 +4,9 @@ var data = [
   {type:"Foobar", year:2020}
   ];
 
-function arraySort() {
-  const sorts = data.sort((a,b )=> a.year - b.year)
+function arraySort(value) {
+  const sorts = value.sort((a,b) => a.year - b.year)
   console.log(sorts)
 }
 
-arraySort();
+arraySort(data);
